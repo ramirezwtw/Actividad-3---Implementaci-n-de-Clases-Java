@@ -1,19 +1,19 @@
 package com.example;
 
-public class Book {
+public class Product {
     private String id;
     private String title;
     private double price;
     private int stock;
 
-    public Book() {
+    public Product() {
         this.id = "N/A";
         this.title = "Unknown";
         this.price = 0.0;
         this.stock = 0;
     }
 
-    public Book(String id, String title, double price, int stock) {
+    public Product(String id, String title, double price, int stock) {
         this.id = id;
         this.title = title;
         this.price = price;
